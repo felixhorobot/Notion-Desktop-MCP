@@ -219,6 +219,15 @@ These rules are enforced by the server, not left to the prompt:
 - Each insert compares the whole page before and after, scrolling to include blocks Notion has
   unloaded. If a block that existed before is missing, the insert undoes its own paste.
 
+## Privacy
+
+- Everything runs on your own computer. The project has no server, no telemetry and no analytics, and it
+  sends nothing to the author or any third party.
+- Notion content passes only between Notion Desktop and the AI agent you connect. What the agent does
+  with it (for example, sending it to its model provider) is governed by that agent's own terms.
+- Block backups are stored locally in `~/.notion-desktop-mcp/deletions.jsonl`. Delete that file at any
+  time to remove them.
+
 ## Speed
 
 - Send a whole section per `notion_insert`. It is one paste, whatever the number of blocks.
