@@ -1,0 +1,14 @@
+{
+  "name": "notion-desktop-mcp",
+  "description": "Claude Code plugin that controls the Notion Desktop app through its debug mode.",
+  "owner": {
+    "name": "felixhorobot"
+  },
+  "plugins": [
+    {
+      "name": "notion-desktop-mcp",
+      "source": "./",
+      "description": "Control the Notion Desktop app through its debug mode, with backup and restore for deletes."
+    }
+  ]
+}

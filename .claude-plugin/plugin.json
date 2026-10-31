@@ -1,0 +1,17 @@
+{
+  "name": "notion-desktop-mcp",
+  "version": "0.1.0",
+  "description": "Control the Notion Desktop app from Claude Code through its debug mode (remote debugging port 9222): write pages, build databases and diagrams, and delete with backup and restore. Works in every workspace you can open, guest workspaces included.",
+  "author": {
+    "name": "felixhorobot"
+  },
+  "repository": "https://github.com/felixhorobot/Notion-Desktop-MCP",
+  "license": "MIT",
+  "keywords": [
+    "notion",
+    "notion-desktop",
+    "mcp",
+    "debug-mode",
+    "cdp"
+  ]
+}
